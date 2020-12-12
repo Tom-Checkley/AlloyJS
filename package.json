@@ -1,0 +1,15 @@
+{
+  "name": "AlloyJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Tom-Checkley/AlloyJS.git",
+  "author": "Tom Checkley <tomc@element78.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3",
+    "typescript-cli": "^0.1.0"
+  }
+}
