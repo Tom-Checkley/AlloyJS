@@ -1,23 +1,21 @@
 {
   "name": "AlloyJS",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Tom-Checkley/AlloyJS.git",
-  "author": "Tom Checkley <tomc@element78.co.uk>",
-  "license": "MIT",
   "engines": {
     "node": "^15.4.0"
   },
+  "main": "alloy.js",
+  "author": "Tom Checkley",
+  "license": "MIT",
   "scripts": {
     "start": "webpack --watch"
   },
   "dependencies": {
+    "webpack": "^5.10.1"
   },
   "devDependencies": {
     "ts-loader": "^8.0.12",
-    "webpack": "^5.10.1",
-    "webpack-cli": "^4.2.0",
     "typescript": "^4.1.3",
-    "typescript-cli": "^0.1.0"
+    "webpack-cli": "^4.2.0"
   }
 }

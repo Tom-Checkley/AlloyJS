@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlloyJS</title>
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="./assets/js/main.js"></script>
 </head>
 <body>
-    <div data-alloy-hello-world='{"message": "Hello world directive says hello!"}'>
-        <h1></h1>
-    </div>
+    <div data-alloy-hello-world='o, {"message": "Hello world, directive says hello!"}'></div>
+    <div data-alloy-hello-world='n, 32'></div>
+    <div data-alloy-hello-world='a, [32, "hello"]'></div>
+    <div data-alloy-hello-world='s, "hello"'></div>
+    <div data-alloy-hello-world=''></div>
+    <div data-alloy-test="[item1, item2]"></div>
 </body>
 </html>
